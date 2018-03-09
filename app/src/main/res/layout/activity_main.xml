@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/relative"
+    android:background="@drawable/brown"
+    android:layout_gravity="center"
+    tools:context="com.example.dhwani.loginactivity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Email_Textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/Email_textfield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:hint="Email"
+            android:inputType="text" /><requestFocus/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_Textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email_Textinputlayout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:passwordToggleEnabled="true">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/password_textfield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="#fff"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password_Textinputlayout"
+        android:layout_below="@+id/password_Textinputlayout"
+        android:layout_gravity="center"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+</RelativeLayout>

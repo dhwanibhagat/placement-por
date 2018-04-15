@@ -14,6 +14,17 @@
     <color name="gray">#fafafa</color>
     <color name="startblue">#09c6df</color>
     <color name="endblue">#0bcce6</color>
+    <color name="darkkblue">#3F51B5</color>
+    <color name="skyblue">#303F9F</color>
+    <color name="pink">#FF4081</color>
+    <color name="lightgreen">#17bb0b</color>
+    <color name="red">#e50b1f</color>
 
+    <color name="bb2">#2BBACD</color>
+    <color name="bb1">#00838f</color>
+    <color name="sheet">#186289</color>
+    <color name="sheetDark">#0d4360</color>
+    <color name="colorBackground">#52D1E1</color>
+    <color name="silver">#C0C0C0</color>
 
 </resources>

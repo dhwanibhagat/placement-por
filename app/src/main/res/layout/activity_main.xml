@@ -2,38 +2,66 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/building"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    android:id="@+id/relative"
-    android:background="@drawable/brown"
-    android:layout_gravity="center"
     tools:context="com.example.dhwani.loginactivity.MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="casual"
+            android:text="User"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Login"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/Email_Textinputlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar"
+        android:layout_below="@+id/linearLayout"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="32dp">
+        android:layout_marginTop="200dp">
 
         <android.support.v7.widget.AppCompatEditText
             android:id="@+id/Email_textfield"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
             android:hint="Email"
-            android:inputType="text" /><requestFocus/>
+            android:inputType="text"
+            android:textColor="#fff" />
+
+        <requestFocus />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -51,23 +79,30 @@
             android:id="@+id/password_textfield"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:hint="Password"
-            android:textColor="#fff"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="#fff" />
+
+
     </android.support.design.widget.TextInputLayout>
 
-    <Button
-        android:background="@drawable/buttonstyle"
-        android:id="@+id/submit"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/password_Textinputlayout"
-        android:layout_below="@+id/password_Textinputlayout"
-        android:layout_gravity="center"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="32dp"
-        android:gravity="center"
-        android:text="Login"
-        android:textColor="#fff"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="220dp"
+            android:layout_height="0dp"
+            android:layout_alignStart="@+id/password_Textinputlayout"
+            android:layout_below="@+id/password_Textinputlayout"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonstyle1"
+            android:text="Login"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
 </RelativeLayout>

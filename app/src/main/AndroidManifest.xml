@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dhwani.loginactivity">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,11 +23,6 @@
         </activity>
         <!-- Main activity -->
         <activity
-            android:name=".MainActivity"
-            android:configChanges="orientation"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".Dashboard"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
@@ -35,10 +32,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".JobActivity"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ContactUsActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
@@ -60,7 +53,11 @@
         <activity
             android:name=".ApplyActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"></activity>ss
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SaveActivity"
             android:configChanges="orientation"
@@ -68,7 +65,10 @@
         <activity
             android:name=".A1"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".DetailedJob" />
+        <activity android:name=".Detailedjob"></activity>
     </application>
 
 </manifest>

@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/brown"
-    android:gravity="center"
     tools:context="com.example.dhwani.loginactivity.ContactUsActivity">
 
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Contact Us"
-       android:textStyle="bold"
-       android:textColor="#fff"
-       android:textSize="23sp"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_marginTop="43dp"
+            android:text="YOUR MESSAGE"
+            android:textColor="@color/colorAccent" />
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="430dp"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:gravity="start"
+            android:inputType="textMultiLine" />
+
+
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp"
+            android:background="@drawable/buttonstyle1"
+            android:text="SUBMIT" />
+
+    </RelativeLayout>
+</ScrollView>

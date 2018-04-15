@@ -10,13 +10,24 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+
 public class Dashboard extends AppCompatActivity implements View.OnClickListener {
+    public String UserId;
     private CardView profile, job, contact, setting, share, logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
+        // Getting and storing Variable from previous Activity
+        // Session Like
+        Intent x = getIntent();
+        Bundle extras = x.getExtras();
+        String Id = extras.getString("SESSION_ID");
+        Toast.makeText(this, "ID = " + Id, Toast.LENGTH_SHORT).show();
+        UserId = Id;
+        // End Here
 
         profile = (CardView) findViewById(R.id.profile);
         job = (CardView) findViewById(R.id.job);
@@ -38,7 +49,20 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
         job.setOnClickListener(this);
         contact.setOnClickListener(this);
         setting.setOnClickListener(this);
-        share.setOnClickListener(this);
+        share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(Intent.ACTION_SEND);
+                myIntent.setType("Text/plain");
+                String shareBody = "body";
+                String shareSub = "subject";
+                myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+                myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
+                startActivity(Intent.createChooser(myIntent, "Share Using"));
+
+
+            }
+        });
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,26 +101,32 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
         switch (view.getId()) {
             case R.id.profile:
                 i = new Intent(this, ProfileActivity.class);
+                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             case R.id.job:
                 i = new Intent(this, JobActivity.class);
+                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             case R.id.contact:
                 i = new Intent(this, ContactUsActivity.class);
+                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             case R.id.setting:
                 i = new Intent(this, SettingsActivity.class);
+                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             case R.id.share:
                 i = new Intent(this, ShareAppActivity.class);
+                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             case R.id.logout:
                 i = new Intent(this, LogoutActivity.class);
+                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             default:

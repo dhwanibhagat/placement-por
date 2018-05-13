@@ -1,9 +1,16 @@
 package com.example.dhwani.loginactivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,12 +26,16 @@ import org.json.JSONObject;
 
 import java.lang.reflect.Executable;
 
+import retrofit2.http.Url;
+
 
 public class ProfileActivity extends AppCompatActivity {
     RequestQueue rq;
 
     TextView textname, textadd, textdob, textemail;
     String fullname, s_email, c_add, dob;
+
+
 //    Intent x = getIntent();
 //    Bundle extras = x.getExtras();
 //    public String Id;
@@ -32,6 +43,8 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_profile);
 
         Intent x = getIntent();

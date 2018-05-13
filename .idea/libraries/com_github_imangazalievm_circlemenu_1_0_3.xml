@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.imangazalievm:circlemenu-1.0.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/circlemenu-1.0.3.aar/26e636ddc11c8e9ed65feffdc9ccbaca/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/circlemenu-1.0.3.aar/26e636ddc11c8e9ed65feffdc9ccbaca/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.imangazalievm/circlemenu/1.0.3/9fda2e1d06b6d90fe984def8267bb158d6c6815e/circlemenu-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

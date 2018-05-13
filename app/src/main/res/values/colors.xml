@@ -26,5 +26,7 @@
     <color name="sheetDark">#0d4360</color>
     <color name="colorBackground">#52D1E1</color>
     <color name="silver">#C0C0C0</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#ffffff</color>
 
 </resources>

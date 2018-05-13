@@ -1,0 +1,317 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\d08f997d6d690c540e31cf557f611a0f\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\cc9ff5b07da09e3a9e3d14a9dbade16b\AndroidManifest.xml:17:1-26:12
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\d91a240516f6a08e52e38796d4df27fa\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.imangazalievm:circlemenu:1.0.3] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\circlemenu-1.0.3.aar\26e636ddc11c8e9ed65feffdc9ccbaca\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\fc2b7af646b5520dd8120c6bc3d4e5f1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bloder:magic:1.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\magic-1.1.aar\b48f34be79cccc2697ce862e435e3238\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.varunest:sparkbutton:1.0.5] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\sparkbutton-1.0.5.aar\b162cf8f8a08c81b2c3a28bfda0352e7\AndroidManifest.xml:2:1-17:12
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fba7a188d14e2ff30264ba09191cfb9b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:17:1-31:12
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:1-69:12
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:7:5-67:19
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\d91a240516f6a08e52e38796d4df27fa\AndroidManifest.xml:11:5-20
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\d91a240516f6a08e52e38796d4df27fa\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\fc2b7af646b5520dd8120c6bc3d4e5f1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\fc2b7af646b5520dd8120c6bc3d4e5f1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bloder:magic:1.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\magic-1.1.aar\b48f34be79cccc2697ce862e435e3238\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bloder:magic:1.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\magic-1.1.aar\b48f34be79cccc2697ce862e435e3238\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.varunest:sparkbutton:1.0.5] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\sparkbutton-1.0.5.aar\b162cf8f8a08c81b2c3a28bfda0352e7\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.varunest:sparkbutton:1.0.5] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\sparkbutton-1.0.5.aar\b162cf8f8a08c81b2c3a28bfda0352e7\AndroidManifest.xml:11:5-15:19
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:13:5-14:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fba7a188d14e2ff30264ba09191cfb9b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fba7a188d14e2ff30264ba09191cfb9b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:25:5-29:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:13:5-14:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:13:9-49
+activity#com.example.dhwani.loginactivity.SplashActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:17:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:16:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:15:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.dhwani.loginactivity.Dashboard
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:25:9-28:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:28:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:26:13-38
+activity#com.example.dhwani.loginactivity.ProfileActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:29:9-32:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:32:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:30:13-44
+activity#com.example.dhwani.loginactivity.JobActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:33:9-36:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:36:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:34:13-40
+activity#com.example.dhwani.loginactivity.SettingsActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:37:9-40:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:40:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:39:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:38:13-45
+activity#com.example.dhwani.loginactivity.ShareAppActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:41:9-44:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:44:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:43:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:42:13-45
+activity#com.example.dhwani.loginactivity.LogoutActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:45:9-48:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:48:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:47:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:46:13-43
+activity#com.example.dhwani.loginactivity.ApplyActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:49:9-52:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:52:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:50:13-42
+activity#com.example.dhwani.loginactivity.MainActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:53:9-56:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:56:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:55:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:54:13-41
+activity#com.example.dhwani.loginactivity.SaveActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:57:9-60:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:60:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:59:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:58:13-41
+activity#com.example.dhwani.loginactivity.A1
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:61:9-64:52
+	android:screenOrientation
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:64:13-49
+	android:configChanges
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:62:13-31
+activity#com.example.dhwani.loginactivity.ContactUsActivity
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:65:9-55
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:65:19-52
+activity#com.example.dhwani.loginactivity.Detailedjob
+ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:66:9-58
+	android:name
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml:66:19-46
+uses-sdk
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\d08f997d6d690c540e31cf557f611a0f\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\d08f997d6d690c540e31cf557f611a0f\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\cc9ff5b07da09e3a9e3d14a9dbade16b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\cc9ff5b07da09e3a9e3d14a9dbade16b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\d91a240516f6a08e52e38796d4df27fa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\d91a240516f6a08e52e38796d4df27fa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:21:5-23:62
+MERGED from [com.github.imangazalievm:circlemenu:1.0.3] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\circlemenu-1.0.3.aar\26e636ddc11c8e9ed65feffdc9ccbaca\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.imangazalievm:circlemenu:1.0.3] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\circlemenu-1.0.3.aar\26e636ddc11c8e9ed65feffdc9ccbaca\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\fc2b7af646b5520dd8120c6bc3d4e5f1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\fc2b7af646b5520dd8120c6bc3d4e5f1\AndroidManifest.xml:7:5-43
+MERGED from [com.github.bloder:magic:1.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\magic-1.1.aar\b48f34be79cccc2697ce862e435e3238\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bloder:magic:1.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\magic-1.1.aar\b48f34be79cccc2697ce862e435e3238\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.varunest:sparkbutton:1.0.5] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\sparkbutton-1.0.5.aar\b162cf8f8a08c81b2c3a28bfda0352e7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.varunest:sparkbutton:1.0.5] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\sparkbutton-1.0.5.aar\b162cf8f8a08c81b2c3a28bfda0352e7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\ion-2.2.1.aar\bcd06bbb0645dbb5b4b9c49b26c8336e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fba7a188d14e2ff30264ba09191cfb9b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fba7a188d14e2ff30264ba09191cfb9b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:21:5-23:54
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\androidasync-2.2.1.aar\21ab21b5e45c5c466c3fac1ca9de7ef6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		ADDED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Semester3\Android\LoginAct\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\011bcda5b90fa57edb4d29c1b413180a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3e565fefd3b4fb9663b6a5faae5f85d9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\272c993f99910cd2e060c777709f0393\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\90a7652f0b30c592a5d1ee5da67b4932\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\029b932d43de0b8bc2a9f735a2dd0212\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7a5d809a4eb5a9a96f7e5eb9cea3945a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4ea2a9f7690b3077e17642b1180989d4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b04ae45f605cfec749d784c648aa10c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5c2a535f3fc64e87d7fc7e60dbc5851e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\68ceeb831e849cd194d7076ac2fad9f5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e2deae1ffaf8a9fb41f278064ced1ef\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5bd7be06187103231e045209c3a7e9fc\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\938080fe440a7a6b4d178f484c0a4de7\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dhwani\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0eb9308e0ad8c8b39498ef20035d6977\AndroidManifest.xml:26:13-58

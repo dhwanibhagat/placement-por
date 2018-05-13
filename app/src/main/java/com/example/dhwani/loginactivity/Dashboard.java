@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -18,6 +20,8 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_dashboard);
 
         // Getting and storing Variable from previous Activity
@@ -66,7 +70,7 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(Dashboard.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(Dashboard.this,R.style.Theme_AppCompat_DayNight_Dialog_Alert);
                 builder.setTitle("Logout");
                 builder.setMessage("Are you sure you want to logout?");
                 builder.setCancelable(false);
@@ -83,7 +87,6 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
                 builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-
                         dialogInterface.cancel();
                     }
                 });
@@ -126,7 +129,6 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
                 break;
             case R.id.logout:
                 i = new Intent(this, LogoutActivity.class);
-                i.putExtra("SESSION_ID", UserId);
                 startActivity(i);
                 break;
             default:

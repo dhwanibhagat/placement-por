@@ -1,6 +1,7 @@
 package com.example.dhwani.loginactivity;
 
 import android.annotation.SuppressLint;
+import android.app.ProgressDialog;
 import android.app.VoiceInteractor;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     Session session;
     private StringRequest request;
     private RequestQueue requestQueue;
+    private ProgressDialog progressDialog;
 
     public final static boolean isValidEmail(CharSequence target) {
         return (!TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches());
@@ -65,7 +67,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Logging...");
 
         session = new Session(getApplicationContext());
 
@@ -92,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                progressDialog.show();
                 if (email.getText().toString().isEmpty() && password.getText().toString().isEmpty()) {
                     emailLayout.setErrorEnabled(true);
                     emailLayout.setError("Please enter Email");
